@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.logo img{
+    width: 250px;
+   
+    
+}
+.contatiner{
+    background:#fa5203;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading{
+    background:#ec5f1d ;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+}
+h1{
+    font-style: italic;
+    font-weight: 300;
+    color:rgb(231, 223, 212);
+   
+}
+h2{
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 8px;
+    font-style: italic;
+    color:rgb(223, 200, 170);
+    font-weight: 500;
+  
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background:#e0672f ;
+    padding: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
+.menu > a{
+
+    text-decoration: none;
+    display: block;
+    color:rgba(82, 23, 1, 0.795);
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Permanent Marker', cursive;
+    background:#cf5720 ;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 1000px;
+    transition: 0.3s;
+
+}
+.menu a:hover{
+    background:#fa5203 ;
+    color: rgb(238, 157, 128);
+    letter-spacing: 4px;
+}
+
+
+[class*="col-"]
+{
+    float: left;
+    
+   
+}
+[class*="col-"]
+{
+    width: 100%;
+}
+
+
+
+
+.contatiner::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* navbar ends here */
+
+
+
+
+/* profile starts here */
+.profile{
+    background: url(portfolioimage2/afterglow-beach-clouds-417211.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-size:; */
+    background-position:center;
+    position: relative;
+    text-align: center;
+    height: 50vh;
+    
+    
+    
+
+}
+
+
+
+
+.profile .topicone{
+    width: 100px;
+    position: absolute;
+    right: 6px;
+    top: 25px;
+   
+    
+}
+
+
+
+.profiledesk > p{
+    color:rgb(197, 163, 121);
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    font-size: 20px;
+
+padding: 20px;
+    transition: 0.5s;
+}
+
+.profiledesk > p:hover{
+    background:#e44d0162 ;
+    
+}
+
+
+
+.profile .bottomicone{
+    width: 200px;
+    position: absolute;
+left: -25px;
+bottom: 10px;
+}
+.profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* profile is ends here */
+
+
+
+
+/* about me starts here */
+
+
+.aboutme{
+   background-image: url(portfolioimage2/mauntain.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.aboutme > h1 {
+    background: #fa5103a6;
+    text-align: center;
+    padding: 20px;
+   
+}
+.aboutme > h3 {
+    background: rgba(211, 211, 211, 0.425);
+    color: #fa5203;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px -2px 0px crimson;
+}
+.leftp > P{
+    font-size: 25px;
+    padding: 40px 20px;
+    text-align: center;
+    color:rgb(243, 236, 238);
+   text-shadow: 2px 1px 1px crimson;
+   font-family: cursive;
+}
+.rightp{
+    padding: 40px 20px;
+}
+.rightp > p{
+    text-align: center;
+    font-size: 22px;
+    color: cyan;
+    text-shadow: 3px 1px 0px #fa5203;
+    
+    
+}
+.rightp > p > a{
+    color: cyan;
+    text-decoration: none;
+}
+
+.rightp > p > a:hover{
+    color:snow;
+    text-shadow:1px 1px 0px darkblue;
+}
+
+.button{
+    background:#c6421a;
+    padding: 30px;
+    text-align: center;
+}
+.button > a > button{
+    width: 300px;
+   font-size: 25px;
+   padding: 10px;
+   border-radius: 100px;
+   border-style: none;
+   background: bisque;
+
+}
+.button > a > button:hover{
+    background: rgba(5, 5, 173, 0.692);
+    color: snow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[class*="col-"]
+{
+    float: left;
+    
+   
+}
+[class*="col-"]
+{
+    width: 100%;
+}
+
+
+
+
+.aboutme::after{
+    content: '';
+    clear: both;
+    display: table;
+}
